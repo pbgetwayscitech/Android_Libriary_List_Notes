@@ -2,6 +2,7 @@
 List of Android Kotlin and Java Libraries used for building Application with Android Studio.
 
 Created by PAPPU BISWAS<br>
+Support My Youtube Channel : https://youtube.com/@bytenerd <br>
 Follow Me on Linked In : https://linkedin.com/in/mr-pappubiswas
 
 ---
@@ -135,6 +136,26 @@ id("com.google.devtools.ksp") version "1.5.31-1.0.0" apply false
     //Billing
     implementation("com.android.billingclient:billing:5.0.0")
     implementation("com.android.billingclient:billing-ktx:5.0.0")
+```
+
+---
+
+# Exo Video Player Libriary
+
+```
+    //Exoplayer
+    // dependency for exoplayer
+    implementation("com.google.android.exoplayer:exoplayer:r2.4.0")
+    // for core support in exoplayer.
+    implementation ("com.google.android.exoplayer:exoplayer-core:r2.4.0")
+    // for adding dash support in our exoplayer.
+    implementation ("com.google.android.exoplayer:exoplayer-dash:r2.4.0")
+    // for adding hls support in exoplayer.
+    implementation ("com.google.android.exoplayer:exoplayer-hls:r2.4.0")
+    // for smooth streaming of video in our exoplayer.
+    implementation ("com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.0")
+    // for generating default ui of exoplayer
+    implementation ("com.google.android.exoplayer:exoplayer-ui:r2.4.0")
 ```
 
 ---
