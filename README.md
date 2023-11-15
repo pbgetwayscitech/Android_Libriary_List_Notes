@@ -140,6 +140,25 @@ id("com.google.devtools.ksp") version "1.5.31-1.0.0" apply false
 
 ---
 
+# Data Formatting in Android Kotlin
+<a href="https://github.com/pbgetwayscitech/Android_Libriary_List_Notes/blob/main/Date_formating_Kotlin.md"> Here </a>
+
+---
+
+# Single line Permission request for Android 
+
+```
+ val pb_requestPermissionLauncher =  registerForActivityResult( ActivityResultContracts.RequestPermission() ) { isGranted: Boolean -> }
+```
+
+Calling the object as 
+
+```
+pb_requestPermissionLauncher.launch(Manifest.permission.READ_EXTERNAL_STORAGE)
+```
+
+---
+
 # Exo Video Player Libriary
 
 ```
